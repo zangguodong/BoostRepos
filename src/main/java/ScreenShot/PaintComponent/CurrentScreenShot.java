@@ -7,10 +7,10 @@ import java.awt.image.BufferedImage;
  * Created by zangguodong on 2017/6/15.
  */
 public class CurrentScreenShot {
-    static Toolkit toolkit=Toolkit.getDefaultToolkit();
-    static Dimension dimension=toolkit.getScreenSize();
-    static int screenHeight= (int) dimension.getHeight();
-    static int screenWidth=(int) dimension.getWidth();
+    public static Toolkit toolkit=Toolkit.getDefaultToolkit();
+    public static Dimension dimension=toolkit.getScreenSize();
+    public static int screenHeight= (int) dimension.getHeight();
+    public static int screenWidth=(int) dimension.getWidth();
     private static BufferedImage getCurrentScreen() throws AWTException {
         Rectangle rectangle=new Rectangle(screenWidth,screenHeight);
         Robot robot=new Robot();
@@ -28,5 +28,8 @@ public class CurrentScreenShot {
     }
     public static BufferedImage getCompressImage(int w,int h) throws AWTException {
         return resize(w,h,getCurrentScreen());
+    }
+    public static void WriteToLocal(int w,int h,BufferedImage image){
+
     }
 }
