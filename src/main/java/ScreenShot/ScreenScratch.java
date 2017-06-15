@@ -9,6 +9,6 @@ import java.awt.*;
 public class ScreenScratch {
     public Image getScreenImage() throws AWTException {
         Robot robot=new Robot();
-        
+        return null;
     }
 }
