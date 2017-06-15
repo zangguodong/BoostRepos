@@ -3,6 +3,12 @@
 .idea
 workspace.xml
 .idea/workspace.xml
+.idea/compiler.xml
+.idea/gradle.xml
+.idea/kotlinc.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
 
 # gradle
 .gradle
