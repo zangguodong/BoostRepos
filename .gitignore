@@ -7,3 +7,4 @@ gradlelwe
 .idea/workspace.xml
 *.iml
 .idea/*
+*.xml
