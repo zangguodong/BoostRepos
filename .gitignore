@@ -1,10 +1,10 @@
-*.bin
-*.bat
-gradlelwe
-*.class
-*.jar
-*.MF
-.idea/workspace.xml
+# IntelliJ IDEA
 *.iml
-.idea/*
-*.xml
+.idea
+
+# gradle
+.gradle
+gradle
+gradlew
+gradlew.bat
+build
