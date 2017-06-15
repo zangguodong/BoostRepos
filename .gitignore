@@ -1,0 +1,9 @@
+*.bin
+*.bat
+gradlelwe
+*.class
+*.jar
+*.MF
+.idea/workspace.xml
+*.iml
+.idea/*

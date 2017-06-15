@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/boost-vine.iml" filepath="$PROJECT_DIR$/.idea/modules/boost-vine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/boost-vine_main.iml" filepath="$PROJECT_DIR$/.idea/modules/boost-vine_main.iml" group="boost-vine" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/boost-vine_test.iml" filepath="$PROJECT_DIR$/.idea/modules/boost-vine_test.iml" group="boost-vine" />
     </modules>
   </component>
 </project>
